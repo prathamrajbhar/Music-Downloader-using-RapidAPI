@@ -1,0 +1,60 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  .result-container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 768px) {
+    .container {
+      padding: 40px;
+    }
+  }
+  
+  /* Add more media queries for larger screen sizes if needed */
+  
